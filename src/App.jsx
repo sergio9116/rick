@@ -36,7 +36,7 @@ function App() {
         <h2>Loading...</h2>
         :
         <div className='app'>
-          <img className='image' src="../public/assets/Frame259.webp" alt="" />
+          <img className='image' src="../assets/Frame259.webp" alt="" />
           <form className='app__form' onSubmit={handleSubmit}>
             <input className='app__inpur' type="text" ref={textInput}/>
             <button className='app__btn'>Search</button>
